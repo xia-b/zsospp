@@ -1,0 +1,471 @@
+/*公共*/
+.l-mainbg{
+    background-color: #f3f7fa;
+}
+
+/*页头*/
+
+.l-top-nav{
+    background-color: #fafafa;
+    border-bottom: #ddd 1px solid;
+}
+.l-top-navmain{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+.l-top-navmain span{
+    color: #f8b551;
+    margin-right: 30px;
+
+}
+.l-top-navmain a{
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/*页头图标*/
+.l-logo{
+    height: 91px;
+    line-height: 91px;
+    overflow: hidden;
+}
+.l-seach{
+    margin-top: 24px;
+
+}
+.l-seach a{
+    font-size: 18px;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color:#ffffff;
+    background-color:#4581c0;
+    margin-left:17px;
+    margin-right: 16px;
+    float: left;
+}
+.l-seach input{
+    width: 321px;
+    height:32px;
+    float: left;
+
+}
+.l-nav-box{
+    height: 74px;
+    text-align: center;
+    background-color:#4581c0;
+}
+.l-firstnav{
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+
+}
+.l-firstnava{
+    display: inline-block;
+    height: 74px;
+    line-height: 74px;
+    width:133px;
+}
+.down-nav{
+    width: 100%;
+    position: absolute;
+    display: none;
+    background: rgba(49, 103, 165, 0.9);
+    z-index: 999;
+
+}
+
+.down-nav li:hover{
+    background-color: #0D4079;
+}
+.down-nav li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+}
+.l-firstnav:hover,.l-firstnav .active {
+    background-color: #3167a5;
+}
+.l-firstnav:hover .down-nav{
+    display: block;
+
+
+}
+/*头部滚动大图*/
+.l-banner-box{
+    margin-bottom: 32px;
+    z-index: 99;
+}
+/*页尾*/
+.l-fooder-box{
+    padding: 24px 0;
+    background-color:#4d545d;
+    color: #f5f8fa;
+    font-size: 14px;
+}
+.l-fooder-box .w400{
+    width: 339px;
+    height: 246px;
+}
+.fooder-logo,.fooder-nav{
+    padding: 0 30px;
+    border-right: #000 solid 1px;
+}
+.fooder-logo .wei-code2{
+padding-top: 20px;
+}
+.fooder-logo .wei-code2 p{
+    padding-left: 20px;
+    width: 200px
+}
+.fooder-nav h3{
+    padding: 0 0 20px 0;
+    font-size: 16px;
+}
+.fooder-nav ul li{
+    float: left;
+    width: 112px;
+    padding: 4px 0;
+    text-align: left;
+}
+.fooder-link{
+    padding: 0 30px;
+}
+.fooder-link h3{
+    padding: 0 0 20px 0;
+    font-size: 16px;
+}
+.fooder-link ul li{
+    float: left;
+    width: 168px;
+    padding: 4px 0;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.l-copyright-box{
+    padding: 20px 0;
+    background-color:#434343;
+}
+.l-copyright-box p{
+    color: #c1c1c1;
+    font-size: 14px;
+}
+/*标题*/
+
+
+/*按钮*/
+
+
+
+/*图标*/
+.det-pic-div{
+    width: 100%;
+    height: 168px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 19px;
+}
+.det-pic{
+    display:block;
+    text-align: center;
+}
+.det-pic>img{
+
+    display: inline-block;
+    border: 1px solid #dddddd;
+
+}
+.det-font{
+    font-size: 18px;
+    color: #3167a5;
+    margin-bottom:17px;
+    width: 100%;
+    height:48px;
+    overflow: hidden;
+}
+/*新增*/
+.det-span{
+    display: inline-block;
+    height: 34px;
+    overflow: hidden;
+}
+.content-icon{
+    padding-top: 6px;
+    padding-right:14px;
+}
+.up-arrows{
+    display: inline-block;
+    background: url(../images/content-icon-2.jpg);
+    width: 30px;
+    height: 30px;
+}
+.down-arrows{
+    display: inline-block;
+    background: url(../images/content-icon-3.jpg);
+    width: 30px;
+    height: 30px;
+
+}
+.VideosNorms{
+    margin-bottom: 14px;
+}
+.VideosNorms a{
+    display:inline-block;
+    width: 180px;
+    height: 117px;
+    padding-left: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.VideosNorms a img{
+     border: 1px solid #e0e0e0;
+     width: 178px;
+     height: 115px;
+     overflow: hidden;
+     z-index:9
+}
+.VideosNorms a em{
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top:50%;
+    margin-top: -18px;
+    margin-left: 73px;
+    background-image: url(../images/content-icon-4.png);
+    z-index:99
+}
+.VideosNorms a p{
+    width: 163px;
+    position: absolute;
+    color: #ffffff;
+    background-color: rgba(2, 2, 2, 0.5);
+    padding: 6px 8px;
+    bottom:0;
+    z-index:99
+
+
+
+
+}
+.Videologo{
+    height: 26px;
+    line-height: 26px;
+    background: url(../images/video.png) 10px 0 no-repeat;
+    padding-bottom: 8px;
+}
+
+.Videologo span{
+    display: inline-block;
+    width: 100%;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #3167a5;
+}
+.SubjectPic{
+    display:block;
+    width:598px;
+    height: 66px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+
+}
+.SubjectPic img{
+    width:598px;
+    height: 66px;
+    overflow: hidden;
+}
+/*文章列表*/
+.Pioneering{
+    width: 370px;
+    display: inline-block;
+}
+.Pioneering>ul>li{
+    height: 36px;
+    padding-left: 11px;
+}
+.Pioneering>ul>li>a{
+    display: inline-block;
+    width: 209px;
+    line-height: 36px;
+    font-size: 16px;
+
+}
+.Pioneering>ul>li>span{
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.Pioneering ul li a:hover{
+    color: #3167a5;
+    text-decoration: underline;
+
+}
+/*文章详细*/
+.operation li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.operation li a {
+    font-size: 14px;
+    display: inline-block;
+    width: 121px;
+    height: 88px;
+    line-height: 88px;
+    padding-left: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.operation .icon-operation01{
+    background: url(../images/operation-icon.png) 15px center no-repeat;
+}
+.operation .icon-operation02{
+    background: url(../images/operation-icon1.png) 15px center no-repeat;
+}
+.operation .icon-operation03{
+    background: url(../images/operation-icon2.png) 15px center no-repeat;
+}
+.operation .icon-operation04{
+    background: url(../images/operation-icon3.png) 15px center no-repeat;
+}
+.operation .icon-operation05{
+    background: url(../images/operation-icon4.png) 15px center no-repeat;
+}
+.operation .icon-operation06{
+    background: url(../images/operation-icon5.png) 15px center no-repeat;
+}
+.operation .icon-operation07{
+    background: url(../images/operation-icon6.png) 15px center no-repeat;
+}
+.operation .icon-operation08{
+    background: url(../images/operation-icon7.png) 15px center no-repeat;
+}
+
+.operation li a:hover{
+    -webkit-box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
+    -moz-box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
+    box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
+}
+.personnel-pic{
+    padding-top:18px;
+}
+.personnel-pic ul li{
+    display: inline-block;
+}
+.ppd{
+    margin-right: 55px;
+}
+.personnel-pic1{
+
+    position: relative;
+}
+.personnel-pic1 img{
+    width:142px;
+    height: 185px;
+    overflow: hidden;
+    z-index: 99;
+}
+.personnel-pic1:hover .Char-intro{
+    height: 189px;
+    transition: height 0.5s linear;
+}
+.Char-intro{
+    text-align: center;
+    width: 142px;
+    height: 66px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.Char-intro a{
+    display:block;
+    width: 142px;
+}
+.Char-intro a h2{
+    color: #4099ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Char-intro a p{
+    text-align:left;
+    padding: 0 4px;
+    line-height: 18px;
+}
+.enterprise{
+    padding-top: 25px;
+    position: relative;
+
+
+}
+.enterprise-between{
+    margin:0 auto;
+}
+.enterprise ul li{
+    display: inline-block;
+    margin: 0 26px;
+
+}
+
+.enterprise ul li a {
+    display: inline-block;
+    width: 224px;
+    height: 84px;
+    padding-bottom: 18px;
+
+}
+.enterprise ul li a img{
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    width: 222px;
+    height: 84px;
+    overflow: hidden;
+
+}
+.enterprise ul li span{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+}
+.lf-arrows{
+    display: inline-block;
+    background:url(../images/content-icon-l.jpg) no-repeat;
+    width:18px;
+    height: 44px;
+    position: absolute;
+    top:45px;
+    left:15px;
+    z-index: 9999;
+}
+.rg-arrows{
+    display: inline-block;
+    background: url(../images/content-icon-r.jpg) no-repeat;
+    width:18px;
+    height: 44px;
+    position: absolute;
+    top:45px;
+    right:15px;
+    z-index: 9999;
+}
+/*new-page*/
+.bottom-distance{
+    padding-bottom:18px;
+}
