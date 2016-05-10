@@ -454,7 +454,7 @@ body
 
 }
 .new-headling-ldetail{
-    font-size: 24px;
+    font-size: 22px;
     color: #4581c0;
     font-weight: 200;
     padding-right: 15px;
@@ -487,7 +487,7 @@ body
 }
 .l-new-sidenav ul li{
     background: url(../images/new-side-acrossbg.png) bottom center no-repeat;
-    font-size: 24px;
+    font-size: 20px;
     height:46px;
     line-height: 46px;
     text-align: center;
@@ -1054,4 +1054,29 @@ body
     background-color: #4581c0;
     color: #ffffff;
     padding: 10px 50px;
+}
+#Gpager a{
+    border: #4581C0 solid 1px;
+    padding: 4px 9px;
+    background: #589BE2;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+#Gpager span{
+    margin-right: 5px;
+    color: #5A6263!important;
+    margin-right: 5px;
+    border: #4581C0 solid 1px;
+    padding: 4px;
+    background: #589BE2;
+    font-size: 14px;
+    border: #BEBFC1 solid 1px;
+    padding: 4px 9px;
+    background: #C4C8CC;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 3px;
 }
