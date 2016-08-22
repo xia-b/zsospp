@@ -68,9 +68,10 @@
 }
 .l-firstnava{
     display: inline-block;
-    height: 74px;
-    line-height: 74px;
+    height: 70px;
+    line-height: 64px;
     width:133px;
+    border-top: #4581c0 solid 4px;
 }
 .down-nav{
     width: 100%;
@@ -94,6 +95,9 @@
 .l-firstnav:hover,.l-firstnav .active {
     background-color: #3167a5;
 }
+.l-firstnav:hover .l-firstnava,.l-firstnav .l-firstnava.active{
+ border-top: 4px #B8D33C solid;
+}
 .l-firstnav:hover .down-nav{
     display: block;
 
@@ -101,6 +105,7 @@
 }
 /*头部滚动大图*/
 .l-banner-box{
+    width: 100%;
     margin-bottom: 32px;
     z-index: 99;
 }
@@ -323,12 +328,19 @@ padding-top: 20px;
 .operation li a {
     font-size: 14px;
     display: inline-block;
-    width: 121px;
+    width: 99px;
     height: 88px;
     line-height: 88px;
-    padding-left: 60px;
+    padding-left: 84px;
     margin: 0 auto;
-    text-align: center;
+    -moz-transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    -moz-transition: background-position 0.3s;
+    -webkit-transition: background-position 0.3s;
+    -o-transition: background-position 0.3s;
+    transition: background-position 0.3s;
 }
 .operation .icon-operation01{
     background: url(../images/operation-icon.png) 15px center no-repeat;
@@ -356,9 +368,11 @@ padding-top: 20px;
 }
 
 .operation li a:hover{
-    -webkit-box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
-    -moz-box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
-    box-shadow: 0 0 10px rgba(47, 47, 47, 0.7);
+    border-bottom: 2px solid #dae0e5\0;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-position-x: 10px;
+
 }
 .personnel-pic{
     padding-top:18px;
@@ -394,6 +408,7 @@ padding-top: 20px;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+    transition: height 0.5s linear;
 }
 .Char-intro a{
     display:block;

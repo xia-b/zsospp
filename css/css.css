@@ -342,7 +342,7 @@ body
 }
 .detailhead1 a:hover,.detailhead1 .active{
     color: #ffffff;
-    background-color: #3167a5;
+    background-color: #4581c0;
 }
 .detail{
     padding-left:20px;
@@ -418,7 +418,7 @@ body
 }
 .Leftspacing a:hover,.Leftspacing .active{
     color: #ffffff;
-    background-color: #3167a5;
+    background-color: #4581c0;
 }
 /*new-page*/
 
@@ -471,7 +471,7 @@ body
     line-height: 30px;
 }
 .new-active{
-    color: #3167a5;
+    color: #4581c0;
 
 }
 .l-new-content{
@@ -600,7 +600,7 @@ body
     color: #818282;
 }
 .color-blue{
-    color: #3167a5;
+    color: #4581c0;
 }
 
 .pad-right{
@@ -734,7 +734,7 @@ body
     color: #ffffff;
     background-color: #4581c0;
 }
-.yel-table{width200
+.yel-table{
     border:1px solid #b6b6b6;
 }
 .yel-table tr{

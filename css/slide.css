@@ -9,8 +9,8 @@ img {
 .ck-slide {
 	position: relative;
 	overflow: hidden;
-	width: 1200px;
-	height: 448px;
+	width: 100%;
+	height: 450px;
 }
 .ck-slide ul.ck-slide-wrapper {
 	position: absolute;
@@ -19,9 +19,20 @@ img {
 	z-index: 1;
 	margin: 0;
 	padding: 0;
+	width: 100% !important;
+}
+.ck-slide .ck-slide-wrapper p{
+    width: 100%;
+    display: block;
+    height:450px;
+    background-position: 0 center;
 }
 .ck-slide ul.ck-slide-wrapper li {
-	position: absolute; margin-top:0px;
+	position: absolute;
+	margin-top:0px;
+	width: 100%;
+	height: 450px;
+	overflow:hidden;
 }
 .ck-slide ul.ck-slide-wrapper li a{
 	/*a标签是行内元素，宽高对a标签不起作用，
@@ -71,13 +82,13 @@ img {
 	display: block;
 	width: 48px;
 	height: 8px;
-	background-color: #fff;
+	background-color: #4581c0;
 	text-indent: -9999px;
 	cursor: pointer;
 }
 .ck-slidebox ul li.current em {
-	background-color: #3167a5;
+	background-color: #B8D33C;
 }
 .ck-slidebox ul li em:hover {
-	background-color: #3167a5;
+	background-color: #B8D33C;
 }
