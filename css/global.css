@@ -394,7 +394,7 @@ padding-top: 20px;
     z-index: 99;
 }
 .personnel-pic1:hover .Char-intro{
-    height: 189px;
+    height: 118px;
     transition: height 0.5s linear;
 }
 .Char-intro{
