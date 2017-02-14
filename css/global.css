@@ -78,8 +78,8 @@
     position: absolute;
     display: none;
     background: rgba(49, 103, 165, 0.9);
+    background: url(../images/icon-downnav-bg.png) left center repeat\0;
     z-index: 999;
-
 }
 
 .down-nav li:hover{

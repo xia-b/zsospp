@@ -485,8 +485,9 @@ body
 
 }
 .l-new-content{
+    position: relative;
     padding-right:12px;
-     background: url(../images/new-side-standbg.png) 215px 0 no-repeat;
+    background: url(../images/new-side-standbg.png) 215px 0 no-repeat;
 
 }
 .l-new-sidenav{
@@ -705,6 +706,10 @@ body
     box-shadow: 0 0 3px #ddd;
     position: relative;
 }
+.develop-article a:hover{
+    text-decoration: underline;
+    color: #1565d7;
+}
 .article-i{
     display: inline-block;
     width: 17px;
@@ -716,7 +721,7 @@ body
     margin-top: -18px;
 }
 .pad{
-    padding:40px 0 50px 0;
+    padding:30px 0 30px 0;
 }
 .pad-top20{
     padding-top:20px;
@@ -725,12 +730,22 @@ body
     padding-top: 40px;
 }
 .pad-botom50{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .develop-headline-nav{
     height: 63px;
 }
-
+.select-year{
+    position: absolute;
+    top: 10px;
+    left: 304px
+}
+.select-year select{
+    border:solid 1px #1565d7;
+    color: #1565d7;
+    font-size: 18px;
+    border-radius: 2px;
+}
 /*yellowpage*/
 .mar-b10{
     margin-bottom: 10px;
@@ -765,7 +780,7 @@ body
 }
 .yel-table tr td a:hover{
     text-decoration: underline;
-    color:#4581c0;
+    color:#fff;
 }
 .yel-table-p{
     padding: 0 5px 0 5px;
@@ -1102,4 +1117,29 @@ body
     font-size: 14px;
     display: inline-block;
     border-radius: 3px;
+}
+
+/*友情链接*/
+.zui-table {
+    width: 956px;
+    background-color: #fff;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+.zui-table thead tr {
+        background-color: #f2f2f2;
+    }
+.zui-table th,td {
+        padding: 9px 15px;
+        min-height: 20px;
+        line-height: 20px;
+        border: 1px solid #e2e2e2;
+        font-size: 14px;
+    }
+.zui-table a:hover{
+    text-decoration: underline;
+    color:#4581c0;
+}
+.zui-table th {
+    text-align: left;
 }
