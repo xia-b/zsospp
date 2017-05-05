@@ -22,7 +22,8 @@ img {
 	width: 100% !important;
 }
 .ck-slide .ck-slide-wrapper p{
-    width: 100%;
+	margin: auto;
+    width: 1000px;
     display: block;
     height:350px;
     background-position: 0 center;
