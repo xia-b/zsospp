@@ -26,7 +26,8 @@ img {
     width: 1000px;
     display: block;
     height:350px;
-    background-position: 0 center;
+    background-size: cover;
+    background-position: center;
 }
 .ck-slide ul.ck-slide-wrapper li {
 	position: absolute;
