@@ -485,3 +485,54 @@ padding-top: 0px;
 .bottom-distance{
     padding-bottom:18px;
 }
+/*找回密码*/
+.find-code{
+    width: 314px;
+    margin: auto;
+}
+.find-code .title{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.find-code .title span{
+    color: #4581c0;
+}
+.input-box input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.botton{
+    display:block;
+    width: 314px;
+    height: 44px;
+    background-color: #4581c0;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a:hover{
+    color: #fff;
+}
+.find-code .tip{
+    color: #999;
+    margin-bottom: 20px;
+
+}
+.input-box .input-yanzheng{
+    width: 200px;
+}
+.btn-send{
+    display:block;
+    float: right;
+    width:96px;
+    height: 44px;
+    background-color: #4581c0;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+}
